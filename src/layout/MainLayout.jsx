@@ -9,7 +9,7 @@ export default function MainLayout() {
     <div>
       <MyProvider>
         <Navbar />
-       <div className="h-screen w-10/12 mx-auto">
+       <div className="min-h-screen w-10/12 mx-auto">
         <Outlet />
        </div>
         <Footer></Footer>

@@ -6,7 +6,7 @@ import WishListBadge from '../Components/WishListBadge'
 export default function Navbar() {
 
 const links = <>
-        <li><NavLink to={"/"}>Home</NavLink></li>
+        <li><NavLink to={"/home"}>Home</NavLink></li>
         <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>
         <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
        
