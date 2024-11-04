@@ -36,7 +36,7 @@ export default function CategoryCard() {
   </div>
 
   <div className="flex justify-center mt-8">
-    <button onClick={allProducts} className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors duration-300">
+    <button onClick={allProducts} className="rounded-full text-white py-2 px-4 bg-[#9538E2] hover:bg-violet-600 shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
       Show All
     </button>
   </div>

@@ -1,7 +1,8 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import ShoppingBadge from '../Components/ShoppingBadge'
 import WishListBadge from '../Components/WishListBadge'
+import logo from '../../public/logoo.png'
 
 export default function Navbar({bgColor, isHomePage}) {
 
@@ -44,7 +45,10 @@ const textColor = isHomePage ? 'text-white' : "text-black"
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Gadget Haven</a>
+    <Link to={"/"} className="btn btn-ghost text-base md:text-xl ">
+        <img className='w-6 md:w-12  md:h-12 ' src={logo} alt="" />
+        Gadget Heaven
+    </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-4">

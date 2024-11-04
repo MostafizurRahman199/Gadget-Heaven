@@ -6,7 +6,6 @@ import Statistics from "../pages/Statistics";
 import ErrorPage from "../pages/ErrorPage";
 import CategoryCard from "../Components/Home/CategoryCard";
 import ProductDetails from "../Components/ProductDetails";
-import DisplayDashboard from "../Components/Dashboard/DisplayDashboard";
 import Allproducts from "../pages/Allproducts";
 import TitleWrapper from "../Components/TitleWrapper";
 
@@ -19,7 +18,7 @@ export const router = createBrowserRouter([
             {
                 path: "/", // Removed the leading slash to make it relative
                 element: (
-                    <TitleWrapper title="Home - Gadget Haven">
+                    <TitleWrapper title="Home - Gadget Heaven">
                         <Home />
                     </TitleWrapper>
                 ),
@@ -28,7 +27,7 @@ export const router = createBrowserRouter([
                   {
                     path:"/category/:category",
                     element:(
-                        <TitleWrapper title="Category - Gadget Haven">
+                        <TitleWrapper title="Category - Gadget Heaven">
                             <CategoryCard />
                         </TitleWrapper>
                     ),
@@ -38,7 +37,7 @@ export const router = createBrowserRouter([
                   {
                     path:"/",
                     element:(
-                        <TitleWrapper title="All Products - Gadget Haven">
+                        <TitleWrapper title="All Products - Gadget Heaven">
                             <CategoryCard />
                         </TitleWrapper>
                     ),
@@ -51,7 +50,7 @@ export const router = createBrowserRouter([
             {
                 path:"/dashboard",
                 element: (
-                    <TitleWrapper title="Dashboard - Gadget Haven">
+                    <TitleWrapper title="Dashboard - Gadget Heaven">
                         <Dashboard />
                     </TitleWrapper>
                 ),
@@ -60,7 +59,7 @@ export const router = createBrowserRouter([
             {
                 path:"/statistics",
                 element : (
-                    <TitleWrapper title="Statistics - Gadget Haven">
+                    <TitleWrapper title="Statistics - Gadget Heaven">
                         <Statistics />
                     </TitleWrapper>
                 ),
@@ -69,7 +68,7 @@ export const router = createBrowserRouter([
             {
                 path:"/allproducts",
                 element :  (
-                    <TitleWrapper title="All Products - Gadget Haven">
+                    <TitleWrapper title="All Products - Gadget Heaven">
                         <Allproducts />
                     </TitleWrapper>
                 ),
@@ -78,7 +77,7 @@ export const router = createBrowserRouter([
             {
                 path:"/productdetails/:id",
                 element:(
-                    <TitleWrapper title="Product Details - Gadget Haven">
+                    <TitleWrapper title="Product Details - Gadget Heaven">
                         <ProductDetails />
                     </TitleWrapper>
                 ),

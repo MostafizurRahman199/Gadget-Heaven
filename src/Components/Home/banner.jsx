@@ -25,7 +25,7 @@ export default function Banner() {
             <p className="py-4 md:py-6 text-sm md:text-lg">
               Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
             </p>
-            <button onClick={()=>navigate("/dashboard")} className="btn bg-white text-[#9538E2] rounded-3xl font-semibold hover:bg-gray-200">
+            <button onClick={()=>navigate("/dashboard")} className="btn bg-white text-[#9538E2] rounded-3xl font-semibold hover:bg-gray-200 shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105">
               Shop Now
             </button>
           </div>
