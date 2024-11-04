@@ -88,14 +88,14 @@ export default function CardProducts() {
 
 
 
-      <div className="extra flex justify-around items-center px-4 py-2 ">
-        <h2 className="text-xl font-bold text-gray-800">Cart</h2>
-        <h1 className="text-lg font-semibold text-gray-600">Total Cost: ${totalCost.toFixed(2)}</h1>
+      <div className="extra sm:flex justify-around items-center px-4 py-2 ">
+        <h2 className="text-base md:text-xl font-bold text-gray-800">Cart</h2>
+        <h1 className="text-base md:text-lg font-semibold text-gray-600">Total Cost: ${totalCost.toFixed(2)}</h1>
        
        <div className='flex flex-wrap gap-2'>
        <button
         onClick={handleSortByPrice}
-        className="mt-2 px-4 py-2 flex items-center justify-center gap-2 border-2 border-[#9538E2] text-[#9538E2] font-medium rounded-full shadow-lg  transition duration-300 ease-in-out transform hover:scale-105"
+        className="mt-2 px-2 md:px-4 py-2 flex items-center justify-center gap-2 border-2 border-[#9538E2] text-[#9538E2] font-medium rounded-full shadow-lg  transition duration-300 ease-in-out transform hover:scale-105"
         >
         Sort by Price
         <HiSortDescending className="text-xl" /> 
@@ -104,7 +104,7 @@ export default function CardProducts() {
         <button 
         onClick={clearCart} 
         disabled={cardProducts.length === 0} 
-        className={`btn mt-2 px-4 py-1 text-white rounded-full  ${
+        className={`sm:text-base btn mt-2 px-4 py-1 text-white rounded-full  ${
             cardProducts.length > 0 
             ? 'bg-[#9538E2] hover:bg-violet-600 shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105' 
             : 'bg-gray-400 cursor-not-allowed'

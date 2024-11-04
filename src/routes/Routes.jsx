@@ -4,17 +4,11 @@ import MainLayout from "../layout/MainLayout";
 import Dashboard from "../pages/Dashboard";
 import Statistics from "../pages/Statistics";
 import ErrorPage from "../pages/ErrorPage";
-
-import Laptops from "../Components/Home/Laptops";
-import Phones from "../Components/Home/Phones ";
-import Accessories from "../Components/Home/Accessories";
-import SmartWatches from "../Components/Home/SmartWatches";
-import MacBook from "../Components/Home/MacBook";
-import Iphone from "../Components/Home/Iphone";
 import CategoryCard from "../Components/Home/CategoryCard";
 import ProductDetails from "../Components/ProductDetails";
 import DisplayDashboard from "../Components/Dashboard/DisplayDashboard";
 import Allproducts from "../pages/Allproducts";
+import TitleWrapper from "../Components/TitleWrapper";
 
 export const router = createBrowserRouter([
     {
@@ -24,18 +18,30 @@ export const router = createBrowserRouter([
         children:[
             {
                 path: "/", // Removed the leading slash to make it relative
-                element: <Home />,
+                element: (
+                    <TitleWrapper title="Home - Gadget Haven">
+                        <Home />
+                    </TitleWrapper>
+                ),
                 children: [
                   // Default route for "home"
                   {
                     path:"/category/:category",
-                    element:<CategoryCard/>,
+                    element:(
+                        <TitleWrapper title="Category - Gadget Haven">
+                            <CategoryCard />
+                        </TitleWrapper>
+                    ),
                     loader: ()=> fetch('../products.json'),
                    
                  },
                   {
                     path:"/",
-                    element:<CategoryCard/>,
+                    element:(
+                        <TitleWrapper title="All Products - Gadget Haven">
+                            <CategoryCard />
+                        </TitleWrapper>
+                    ),
                     loader: ()=> fetch('../products.json'),
                    
                  },
@@ -44,27 +50,37 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/dashboard",
-                element: <Dashboard/>,
-                children:[
-                    {
-                        path:"/dashboard/:title",
-                        element:<DisplayDashboard/>
-
-                    }
-                ]
+                element: (
+                    <TitleWrapper title="Dashboard - Gadget Haven">
+                        <Dashboard />
+                    </TitleWrapper>
+                ),
+               
             },
             {
                 path:"/statistics",
-                element : <Statistics/>
+                element : (
+                    <TitleWrapper title="Statistics - Gadget Haven">
+                        <Statistics />
+                    </TitleWrapper>
+                ),
             },
             {
                 path:"/allproducts",
-                element : <Allproducts/>,
+                element :  (
+                    <TitleWrapper title="All Products - Gadget Haven">
+                        <Allproducts />
+                    </TitleWrapper>
+                ),
                 loader: ()=> fetch('../products.json'),
             },
             {
                 path:"/productdetails/:id",
-                element:<ProductDetails/>,
+                element:(
+                    <TitleWrapper title="Product Details - Gadget Haven">
+                        <ProductDetails />
+                    </TitleWrapper>
+                ),
                 loader: ()=> fetch('../products.json'),
             }
         ]
