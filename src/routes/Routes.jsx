@@ -64,6 +64,7 @@ export const router = createBrowserRouter([
                         <Statistics />
                     </TitleWrapper>
                 ),
+                loader: ()=> fetch('../products.json'),
             },
             {
                 path:"/allproducts",
