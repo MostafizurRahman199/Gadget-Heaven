@@ -3,20 +3,25 @@ import { NavLink } from 'react-router-dom'
 import ShoppingBadge from '../Components/ShoppingBadge'
 import WishListBadge from '../Components/WishListBadge'
 
-export default function Navbar() {
+export default function Navbar({bgColor, isHomePage}) {
 
 const links = <>
         <li><NavLink to={"/"}>Home</NavLink></li>
-        <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>
         <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
+        <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>
         <li><NavLink to={'/allproducts'}>All  Products</NavLink></li>
 
        
 </>
 
 
+const textColor = isHomePage ? 'text-white' : "text-black"
+
+
+
+
   return (
-    <div className="navbar bg-base-100 md:w-10/12 mx-auto">
+    <div className={`navbar ${bgColor} md:w-10/12 mx-auto ${textColor} mt-8 md:px-4 rounded-t-2xl`}>
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +40,7 @@ const links = <>
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black">
         {links}
       </ul>
     </div>
@@ -46,9 +51,9 @@ const links = <>
       {links}
     </ul>
   </div>
-  <div className="navbar-end gap-4 hidden lg:flex">
-    <ShoppingBadge/>
-    <WishListBadge/>
+  <div className="navbar-end md:gap-4 ">
+    <ShoppingBadge isHomePage={textColor} />
+    <WishListBadge isHomePage={textColor}/>
   </div>
 </div>
   )

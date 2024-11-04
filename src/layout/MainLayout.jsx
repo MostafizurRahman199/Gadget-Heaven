@@ -2,14 +2,22 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import MyProvider from "../Utils/MyProvider";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function MainLayout() {
+    const location = useLocation();
+
+    // Check if the current page is the home page
+    const isHomePage = location.pathname === '/';
+  
   return (
     <div>
       <MyProvider>
-        <Navbar />
-       <div className="min-h-screen w-10/12 mx-auto">
+      <ToastContainer position="top-left" />
+        <Navbar   bgColor={isHomePage ? 'bg-[#9538E2]' : 'bg-white'} isHomePage={isHomePage}  />
+            <div className="min-h-screen md:w-10/12 mx-auto">
         <Outlet />
        </div>
         <Footer></Footer>

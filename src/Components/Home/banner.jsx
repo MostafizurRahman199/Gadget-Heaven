@@ -45,17 +45,20 @@
 
 import React from 'react';
 import bannerImage from '../../../public/banner.jpg';
+import { useNavigate } from 'react-router-dom';
+
 
 const boxStyles = {
-  boxSizing: 'border-box',
-  borderRadius: '32px',
-  background: 'rgba(255, 255, 255, 0.3)',
+    boxSizing: 'border-box',
+    borderRadius: '32px',
+    background: 'rgba(255, 255, 255, 0.3)',
 };
 
 export default function Banner() {
+    const navigate = useNavigate();
   return (
-    <div className="relative w-11/12 mx-auto ">
-      <div className="hero bg-[#9538E2] text-white h-[400px] md:h-[500px] lg:h-[694px] flex flex-col justify-center lg:justify-start pt-12 lg:pt-20">
+    <div className="relative w-full mx-auto ">
+      <div className="hero bg-[#9538E2] text-white h-[400px] md:h-[500px] lg:h-[694px] flex flex-col justify-center lg:justify-start pt-12 lg:pt-20 rounded-b-2xl">
         <div className="hero-content text-center">
           <div className="max-w-4xl px-4 md:px-0">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
@@ -64,7 +67,7 @@ export default function Banner() {
             <p className="py-4 md:py-6 text-sm md:text-lg">
               Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
             </p>
-            <button className="btn bg-white text-[#9538E2] rounded-3xl font-semibold hover:bg-gray-200">
+            <button onClick={()=>navigate("/dashboard")} className="btn bg-white text-[#9538E2] rounded-3xl font-semibold hover:bg-gray-200">
               Shop Now
             </button>
           </div>

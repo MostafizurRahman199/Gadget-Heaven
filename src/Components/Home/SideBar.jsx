@@ -8,7 +8,7 @@ const SideBar = () => {
         <NavLink
           to="/category/allproducts"
           className={({ isActive }) =>
-            `py-2 px-4 rounded-lg font-semibold ${
+            `py-2 px-4 rounded-2xl  shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 font-semibold ${
               isActive ? 'bg-purple-500 text-white' : 'bg-gray-200 text-gray-700'
             }`
           }
@@ -18,7 +18,7 @@ const SideBar = () => {
         <NavLink
           to="/category/laptops"
           className={({ isActive }) =>
-            `py-2 px-4 rounded-lg ${
+            `py-2 px-4 rounded-2xl  shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${
               isActive ? 'bg-purple-500 text-white' : 'bg-gray-200 text-gray-700'
             }`
           }
@@ -28,7 +28,7 @@ const SideBar = () => {
         <NavLink
           to="/category/phones"
           className={({ isActive }) =>
-            `py-2 px-4 rounded-lg ${
+            `py-2 px-4 rounded-2xl  shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${
               isActive ? 'bg-purple-500 text-white' : 'bg-gray-200 text-gray-700'
             }`
           }
@@ -38,7 +38,7 @@ const SideBar = () => {
         <NavLink
           to="/category/accessories"
           className={({ isActive }) =>
-            `py-2 px-4 rounded-lg ${
+            `py-2 px-4 rounded-2xl  shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${
               isActive ? 'bg-purple-500 text-white' : 'bg-gray-200 text-gray-700'
             }`
           }
@@ -48,7 +48,7 @@ const SideBar = () => {
         <NavLink
           to="/category/smartwatches"
           className={({ isActive }) =>
-            `py-2 px-4 rounded-lg ${
+            `py-2 px-4 rounded-2xl  shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${
               isActive ? 'bg-purple-500 text-white' : 'bg-gray-200 text-gray-700'
             }`
           }
@@ -58,7 +58,7 @@ const SideBar = () => {
         <NavLink
           to="/category/macbook"
           className={({ isActive }) =>
-            `py-2 px-4 rounded-lg ${
+            `py-2 px-4 rounded-2xl  shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${
               isActive ? 'bg-purple-500 text-white' : 'bg-gray-200 text-gray-700'
             }`
           }
@@ -68,7 +68,7 @@ const SideBar = () => {
         <NavLink
           to="/category/iphone"
           className={({ isActive }) =>
-            `py-2 px-4 rounded-lg ${
+            `py-2 px-4 rounded-2xl  shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${
               isActive ? 'bg-purple-500 text-white' : 'bg-gray-200 text-gray-700'
             }`
           }

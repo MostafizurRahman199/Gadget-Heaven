@@ -12,6 +12,7 @@ import Badge from '@mui/material/Badge';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import { MyContext } from '../Utils/MyProvider';
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   '& .MuiBadge-badge': {
@@ -22,11 +23,17 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
   },
 }));
 
-export default function WishListBadge() {
+export default function WishListBadge({isHomePage}) {
+
+    const {cartLength, wishLength, setCartLength, setWishLength} = React.useContext(MyContext)
+
+    React.useEffect(()=>{
+
+    },[wishLength])
   return (
     <IconButton aria-label="cart">
-      <StyledBadge badgeContent={4} color="secondary">
-        <FavoriteIcon />
+      <StyledBadge badgeContent={wishLength} color="secondary">
+        <FavoriteIcon className={isHomePage} />
       </StyledBadge>
     </IconButton>
   );

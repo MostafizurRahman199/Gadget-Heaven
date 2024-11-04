@@ -13,6 +13,7 @@ import MacBook from "../Components/Home/MacBook";
 import Iphone from "../Components/Home/Iphone";
 import CategoryCard from "../Components/Home/CategoryCard";
 import ProductDetails from "../Components/ProductDetails";
+import DisplayDashboard from "../Components/Dashboard/DisplayDashboard";
 
 export const router = createBrowserRouter([
     {
@@ -42,7 +43,14 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/dashboard",
-                element: <Dashboard/>
+                element: <Dashboard/>,
+                children:[
+                    {
+                        path:"/dashboard/:title",
+                        element:<DisplayDashboard/>
+
+                    }
+                ]
             },
             {
                 path:"/statistics",
