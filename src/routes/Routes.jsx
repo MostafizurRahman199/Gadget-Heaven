@@ -4,7 +4,7 @@ import MainLayout from "../layout/MainLayout";
 import Dashboard from "../pages/Dashboard";
 import Statistics from "../pages/Statistics";
 import ErrorPage from "../pages/ErrorPage";
-import AllProducts from "../Components/Home/AllProducts";
+
 import Laptops from "../Components/Home/Laptops";
 import Phones from "../Components/Home/Phones ";
 import Accessories from "../Components/Home/Accessories";
@@ -14,6 +14,7 @@ import Iphone from "../Components/Home/Iphone";
 import CategoryCard from "../Components/Home/CategoryCard";
 import ProductDetails from "../Components/ProductDetails";
 import DisplayDashboard from "../Components/Dashboard/DisplayDashboard";
+import Allproducts from "../pages/Allproducts";
 
 export const router = createBrowserRouter([
     {
@@ -58,7 +59,8 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/allproducts",
-                element : <AllProducts/>
+                element : <Allproducts/>,
+                loader: ()=> fetch('../products.json'),
             },
             {
                 path:"/productdetails/:id",

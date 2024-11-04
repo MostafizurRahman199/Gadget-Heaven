@@ -26,7 +26,7 @@ export default function WishCard({ product, onRemove }) {
       <div className="flex-1 pl-4 relative">
       
         <button
-          onClick={onRemove} // Calls the onRemove function passed from WishListProducts
+          onClick={onRemove} 
           className="absolute top-0 right-0 p-2 bg-gray-200 hover:bg-gray-300 rounded-full"
         >
           ❌

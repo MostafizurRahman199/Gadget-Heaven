@@ -1,11 +1,3 @@
-// import React from 'react'
-
-// export default function ShoppingBadge() {
-//   return (
-//     <div>ShoppingBadge</div>
-//   )
-// }
-
 
 import * as React from 'react';
 import Badge from '@mui/material/Badge';

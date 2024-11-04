@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const SideBar = () => {
   return (
-    <div className="bg-white p-4 rounded-xl shadow-md w-64">
-      <nav className="flex flex-col space-y-4">
+    <div className="bg-white p-4 rounded-xl shadow-md lg:w-64 md:w-full">
+      <nav className="flex flex-wrap justify-center gap-4 lg:flex-col  ">
         <NavLink
           to="/category/allproducts"
           className={({ isActive }) =>

@@ -58,7 +58,7 @@ const ProductCard = ({ product }) => {
   
       setItemToLocalStorage(product, 'cart-list');
      
-      setCartLength((prevLength) => prevLength + 1); // Update cart length in context
+      setCartLength((prevLength) => prevLength + 1); 
    
   };
 

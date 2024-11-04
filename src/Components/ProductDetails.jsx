@@ -22,7 +22,7 @@ export default function ProductDetails() {
                 />
             </div>
 
-            {/* Centering child div in the middle of parent using Flexbox */}
+          
             <div className="flex justify-center items-center w-full md:absolute top-56">
                 <div className="w-full  md:p-4">
                     <ProductDetailsCard product={product} />

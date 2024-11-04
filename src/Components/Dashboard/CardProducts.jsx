@@ -42,11 +42,11 @@ export default function CardProducts() {
   };
 
   const clearCart = () => {
-    localStorage.removeItem('cart-list'); // Remove all items related to the cart
-    setCardProducts([]); // Update the state to empty the cart
+    localStorage.removeItem('cart-list'); 
+    setCardProducts([]); 
     
     document.getElementById('my_modal_5').showModal();
-    setTotalCost(0); // Reset the total cost to 0
+    setTotalCost(0); 
   };
 
   return (
@@ -103,7 +103,7 @@ export default function CardProducts() {
         
         <button 
         onClick={clearCart} 
-        disabled={cardProducts.length === 0} // Disable when cart is empty
+        disabled={cardProducts.length === 0} 
         className={`btn mt-2 px-4 py-1 text-white rounded-full  ${
             cardProducts.length > 0 
             ? 'bg-[#9538E2] hover:bg-violet-600 shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105' 

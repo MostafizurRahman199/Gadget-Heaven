@@ -7,9 +7,8 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function MainLayout() {
+    
     const location = useLocation();
-
-    // Check if the current page is the home page
     const isHomePage = location.pathname === '/';
   
   return (

@@ -1,13 +1,5 @@
-// import React from 'react'
 
-// export default function WishListBadge() {
-//   return (
-//     <div>WishListBadge</div>
-//   )
-// }
-
-
-import * as React from 'react';
+import  React from 'react';
 import Badge from '@mui/material/Badge';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';

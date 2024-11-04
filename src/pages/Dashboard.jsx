@@ -30,7 +30,7 @@ export default function Dashboard() {
           </button>
         </div>
 
-        {/* Conditionally render components based on the selected button */}
+      
         <div>
           {selectedSection === 'cart' && <CardProducts />}
           {selectedSection === 'wishlist' && <WishListProducts />}
