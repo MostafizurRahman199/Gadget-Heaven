@@ -85,7 +85,7 @@ export default function Banner() {
         ></div>
       </div>
 
-      <div className='h-[300px] '> 
+      <div className='h-[400px] '> 
 
       </div>
     </div>

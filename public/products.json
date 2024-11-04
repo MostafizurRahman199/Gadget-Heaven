@@ -1,0 +1,513 @@
+[
+    {
+      "id": "1",
+      "product_title": "Apple iPhone 15 Pro",
+      "product_image": "https://images-cdn.ubuy.co.in/6623480bbf6f5a4f1669d75d-restored-apple-iphone-15-pro-unlocked.jpg",
+      "category": "iphone",
+      "price": 999,
+      "description": "The most powerful iPhone ever.",
+      "specification": [
+        "A17 Pro chip",
+        "6.1-inch Super Retina XDR display",
+        "Pro camera system with 48MP",
+        "Ceramic Shield front cover",
+        "IP68 water and dust resistance"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "id": "2",
+      "product_title": "iphone15",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(3)-8671.jpg",
+      "category": "iphone",
+      "price": 799,
+      "description": "The iPhone with powerful features.",
+      "specification": [
+        "A16 Bionic chip",
+        "6.1-inch Super Retina XDR display",
+        "Dual-camera system",
+        "Ceramic Shield front cover",
+        "IP68 water and dust resistance"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": "3",
+      "product_title": "Apple iPhone 14",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Blue-7810.jpg",
+      "category": "iphone",
+      "price": 699,
+      "description": "The smartphone that just works.",
+      "specification": [
+        "A15 Bionic chip",
+        "6.1-inch Super Retina XDR display",
+        "Dual-camera system",
+        "Cinematic mode for video",
+        "IP68 water and dust resistance"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": "4",
+      "product_title": "Apple iPhone SE (3rd generation)",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/5020-41819.jpg",
+      "category": "iphone",
+      "price": 429,
+      "description": "iPhone power in a compact design.",
+      "specification": [
+        "A15 Bionic chip",
+        "4.7-inch Retina HD display",
+        "Single 12MP camera",
+        "Touch ID",
+        "IP67 water and dust resistance"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "id": "5",
+      "product_title": "Apple iPhone 13 Pro Max",
+      "product_image": "https://www.peacocks.com.bd/storage/2263/iPhone-13-pro-max-128GB-2.jpg",
+      "category": "iphone",
+      "price": 1099,
+      "description": "The biggest and best iPhone.",
+      "specification": [
+        "A15 Bionic chip",
+        "6.7-inch Super Retina XDR display",
+        "Pro camera system with 12MP",
+        "Up to 28 hours of talk time",
+        "IP68 water and dust resistance"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "6",
+      "product_title": "Apple iPhone 13",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/3408-34138.jpg",
+      "category": "iphone",
+      "price": 699,
+      "description": "iPhone 13 features the A15 chip.",
+      "specification": [
+        "A15 Bionic chip",
+        "6.1-inch Super Retina XDR display",
+        "Dual 12MP camera system",
+        "Cinematic mode for video",
+        "IP68 water and dust resistance"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": "7",
+      "product_title": "MacBook Air (M2)",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/MacBook-Air-M2-15-inch-8-CPU-10-GPU-Midnight-2449.jpg",
+      "category": "macbook",
+      "price": 1199,
+      "description": "The thinnest and lightest MacBook.",
+      "specification": [
+        "Apple M2 chip",
+        "13.6-inch Retina display",
+        "MagSafe charging",
+        "Up to 18 hours of battery life",
+        "Fanless design"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "id": "8",
+      "product_title": "MacBook Pro (M2)",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/MacBook-Pro-M2-8256GB-13-inch-Space-Gray-b-9673.jpg",
+      "category": "macbook",
+      "price": 1299,
+      "description": "Powerful performance for professionals.",
+      "specification": [
+        "Apple M2 chip",
+        "13.3-inch Retina display",
+        "Touch Bar",
+        "Up to 20 hours of battery life",
+        "Active cooling system"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "9",
+      "product_title": "MacBook Pro 16-inch (M2)",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/MacBook-Pro-M2-Pro-Space-Grey-a-5196.jpg",
+      "category": "macbook",
+      "price": 2499,
+      "description": "The ultimate pro laptop.",
+      "specification": [
+        "Apple M2 Pro chip",
+        "16-inch Retina display",
+        "Up to 21 hours of battery life",
+        "Active cooling system",
+        "High-fidelity audio"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "id": "10",
+      "product_title": "MacBook Pro 14-inch (M2)",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/MacBook-Pro-M2-Pro-Space-Grey-d-6554.jpg",
+      "category": "macbook",
+      "price": 1999,
+      "description": "The compact powerhouse.",
+      "specification": [
+        "Apple M2 chip",
+        "14.2-inch Liquid Retina display",
+        "MagSafe charging",
+        "Up to 17 hours of battery life",
+        "High-fidelity audio"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "11",
+      "product_title": "MacBook Air (M1)",
+      "product_image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Laptop/Air%20M1/macbookairm1-800x800.png",
+      "category": "macbook",
+      "price": 999,
+      "description": "Light and powerful MacBook.",
+      "specification": [
+        "Apple M1 chip",
+        "13.3-inch Retina display",
+        "Up to 18 hours of battery life",
+        "Fanless design",
+        "Fast SSD storage"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": "12",
+      "product_title": "Samsung Galaxy S23",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S23-Lavender-4600.jpg",
+      "category": "phones",
+      "price": 799,
+      "description": "The latest Galaxy flagship.",
+      "specification": [
+        "6.1-inch Dynamic AMOLED 2X display",
+        "Snapdragon 8 Gen 2",
+        "Triple camera system",
+        "Fast charging support",
+        "IP68 water and dust resistance"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "13",
+      "product_title": "Google Pixel 7",
+      "product_image": "https://kryinternational.com/wp-content/uploads/2024/02/Google-Pixel-7-price-in-bangladesh.jpg",
+      "category": "phones",
+      "price": 599,
+      "description": "The smart camera phone.",
+      "specification": [
+        "6.3-inch OLED display",
+        "Google Tensor G2 chip",
+        "Dual camera system",
+        "Titan M2 security chip",
+        "IP68 water and dust resistance"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": "14",
+      "product_title": "OnePlus 11",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/OnePlus-11-(3)-4957.jpg",
+      "category": "phones",
+      "price": 749,
+      "description": "Flagship performance at a competitive price.",
+      "specification": [
+        "6.7-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "Triple camera system",
+        "Fast charging",
+        "IP64 water resistance"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "id": "15",
+      "product_title": "Xiaomi 13 Pro",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Xiaomi-13-Pro-Ceramic-White-4073.jpg",
+      "category": "phones",
+      "price": 999,
+      "description": "High performance and premium design.",
+      "specification": [
+        "6.73-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "Triple camera system",
+        "Fast charging",
+        "IP68 water resistance"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": "16",
+      "product_title": "Oppo Find X5 Pro",
+      "product_image": "https://diamu.com.bd/wp-content/uploads/2023/01/OPPO-Find-X5-Pro-2-300x300.jpg",
+      "category": "phones",
+      "price": 999,
+      "description": "Innovative design and camera features.",
+      "specification": [
+        "6.7-inch AMOLED display",
+        "Snapdragon 8 Gen 1",
+        "Triple camera system",
+        "Fast charging",
+        "IP68 water resistance"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "17",
+      "product_title": "Dell XPS 13 (2023)",
+      "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-XPS-13-Plus-4-1.jpg",
+      "category": "laptops",
+      "price": 1299,
+      "description": "Compact and powerful laptop.",
+      "specification": [
+        "Intel Core i7",
+        "13.4-inch InfinityEdge display",
+        "16GB RAM",
+        "512GB SSD",
+        "Up to 14 hours of battery life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "18",
+      "product_title": "Lenovo ThinkPad X1 Carbon Gen 10",
+      "product_image": "https://p3-ofp.static.pub/fes/cms/2023/02/07/1t8ut6se83qy63vol8h62i35cmnnew026823.jpg",
+      "category": "laptops",
+      "price": 1499,
+      "description": "Business laptop with premium build.",
+      "specification": [
+        "Intel Core i7",
+        "14-inch UHD display",
+        "16GB RAM",
+        "1TB SSD",
+        "Up to 15 hours of battery life"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "id": "19",
+      "product_title": "HP Spectre x360 14",
+      "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Hp-5-7.jpg",
+      "category": "laptops",
+      "price": 1399,
+      "description": "Versatile 2-in-1 laptop.",
+      "specification": [
+        "Intel Core i7",
+        "13.5-inch OLED display",
+        "16GB RAM",
+        "1TB SSD",
+        "Up to 12 hours of battery life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "20",
+      "product_title": "Asus ROG Zephyrus G14",
+      "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/ROG-Zephyrus-G14-2-1.jpg",
+      "category": "laptops",
+      "price": 1499,
+      "description": "Powerful gaming laptop.",
+      "specification": [
+        "AMD Ryzen 9",
+        "14-inch QHD display",
+        "32GB RAM",
+        "1TB SSD",
+        "Up to 10 hours of battery life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "21",
+      "product_title": "Sony WH-1000XM5",
+      "product_image": "https://example.com/wh1000xm5.jpg",
+      "category": "accessories",
+      "price": 349,
+      "description": "Industry-leading noise cancellation.",
+      "specification": [
+        "30-hour battery life",
+        "Touch sensor controls",
+        "Adaptive Sound Control",
+        "Voice assistant compatibility",
+        "Lightweight design"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "id": "22",
+      "product_title": "Bose QuietComfort 45",
+      "product_image": "https://example.com/qc45.jpg",
+      "category": "accessories",
+      "price": 329,
+      "description": "Comfortable noise-canceling headphones.",
+      "specification": [
+        "24-hour battery life",
+        "Voice control",
+        "Dual-microphone system",
+        "Lightweight design",
+        "Adjustable EQ"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": "23",
+      "product_title": "Apple AirPods Max",
+      "product_image": "https://example.com/airpodsmax.jpg",
+      "category": "accessories",
+      "price": 549,
+      "description": "High-fidelity audio with active noise cancellation.",
+      "specification": [
+        "20-hour battery life",
+        "Spatial audio with dynamic head tracking",
+        "Custom acoustic design",
+        "Active noise cancellation",
+        "Comfortable fit"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": "24",
+      "product_title": "Sennheiser Momentum 4 Wireless",
+      "product_image": "https://example.com/momentum4.jpg",
+      "category": "accessories",
+      "price": 349,
+      "description": "Superior sound quality with adaptive noise cancellation.",
+      "specification": [
+        "60-hour battery life",
+        "Smart pause feature",
+        "Touch control",
+        "Voice assistant compatibility",
+        "Comfortable design"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+        "id": "25",
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://images.unsplash.com/photo-1571595851827-4f8ab28b4504",
+        "category": "smartwatches",
+        "price": 399,
+        "description": "Stay connected and active with the Apple Watch Series 8.",
+        "specification": [
+          "Always-On Retina display",
+          "Health and fitness tracking",
+          "Water resistant up to 50 meters",
+          "Fall detection and emergency SOS",
+          "GPS and cellular options"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "id": "26",
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://images.unsplash.com/photo-1613889299188-7096a4ee8a92",
+        "category": "smartwatches",
+        "price": 299,
+        "description": "A sleek smartwatch for health and fitness enthusiasts.",
+        "specification": [
+          "1.4-inch AMOLED display",
+          "Advanced health tracking features",
+          "Up to 40 hours battery life",
+          "Customizable watch faces",
+          "Water resistant"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "id": "27",
+        "product_title": "Garmin Venu 2",
+        "product_image": "https://images.unsplash.com/photo-1600692663148-2f6b99e50b58",
+        "category": "smartwatches",
+        "price": 399,
+        "description": "Fitness-focused smartwatch with vibrant display.",
+        "specification": [
+          "1.3-inch AMOLED display",
+          "Health and fitness monitoring",
+          "Up to 11 days battery life",
+          "Built-in GPS",
+          "Water resistant"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "id": "28",
+        "product_title": "Fossil Gen 6",
+        "product_image": "https://images.unsplash.com/photo-1585338920618-4b30e76750e0",
+        "category": "smartwatches",
+        "price": 299,
+        "description": "Stylish smartwatch with smart features.",
+        "specification": [
+          "1.28-inch AMOLED display",
+          "Snapdragon Wear 4100+ processor",
+          "Heart rate and sleep tracking",
+          "Up to 24 hours battery life",
+          "Customizable watch faces"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "id": "29",
+        "product_title": "Amazfit GTR 3",
+        "product_image": "https://images.unsplash.com/photo-1630432982915-85c03cbe3bc6",
+        "category": "smartwatches",
+        "price": 199,
+        "description": "Affordable smartwatch with health tracking.",
+        "specification": [
+          "1.39-inch AMOLED display",
+          "Over 150 sports modes",
+          "Up to 21 days battery life",
+          "Built-in GPS",
+          "Water resistant"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "id": "30",
+        "product_title": "Fitbit Versa 3",
+        "product_image": "https://images.unsplash.com/photo-1605768234152-8a1851659495",
+        "category": "smartwatches",
+        "price": 229,
+        "description": "Health and fitness smartwatch with built-in GPS.",
+        "specification": [
+          "1.58-inch AMOLED display",
+          "Built-in GPS",
+          "Heart rate and sleep tracking",
+          "Voice assistant support",
+          "Up to 6 days battery life"
+        ],
+        "availability": true,
+        "rating": 4.4
+      }
+  ]
+  
