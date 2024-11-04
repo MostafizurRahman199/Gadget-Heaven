@@ -6,8 +6,10 @@ import React from 'react';
 import { FaCartShopping } from 'react-icons/fa6';
 import { setItemToLocalStorage } from '../../Utils/storeCardToLocalStorage';
 
+
 export default function WishCard({ product, onRemove }) {
   const { product_title, product_image, price, description } = product;
+
 
   return (
     <div className="flex border rounded-lg shadow-lg p-4 py-2 w-5/6 h-40 mx-auto">

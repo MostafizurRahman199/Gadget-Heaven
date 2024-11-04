@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { getItems, removeFromLocalStorage } from '../../Utils/storeCardToLocalStorage';
 import ProductCard from './ProductCard';
 import { FcOk } from "react-icons/fc";
 import { HiSortDescending } from 'react-icons/hi';
 import { useNavigate } from 'react-router-dom';
+import { MyContext } from '../../Utils/MyProvider';
 
 
 export default function CardProducts() {
@@ -11,13 +12,15 @@ export default function CardProducts() {
   const [totalCost, setTotalCost] = useState(0);
   const [totalItems, setTotalItems] = useState(0);
   const navigate = useNavigate();
+  const {cartLength, wishLength, setCartLength, setWishLength} = useContext(MyContext);
 
 
   useEffect(() => {
     const data = getItems('cart-list') || [];
     setCardProducts(data);
-    calculateTotalCost(data); 
-  }, []);
+    calculateTotalCost(data);
+    setCartLength(data.length) ;
+  }, [totalCost]);
 
   const calculateTotalCost = (products) => {
     const total = products.reduce((sum, product) => sum + product.price, 0);
@@ -30,6 +33,7 @@ export default function CardProducts() {
     setCardProducts(updatedProducts);
     removeFromLocalStorage(productId, 'cart-list');
     calculateTotalCost(updatedProducts); 
+    
   };
 
   const handleSortByPrice = () => {
