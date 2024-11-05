@@ -1,11 +1,10 @@
 import { toast } from "react-toastify";
 
-// Utility function to get items from local storage
+
+
 export const getItems = (title) => {
-    // Retrieve the stored product data as a string
     const productString = localStorage.getItem(title);
-    
-    // If data exists, parse and return it; otherwise, return an empty array
+
     if (productString) {
         const productObj = JSON.parse(productString);
         return productObj;
@@ -14,27 +13,57 @@ export const getItems = (title) => {
     }
 };
 
-// Utility function to add a new product item to local storage
+const WishlistToast = (title)=>{
+
+        toast.success(title, {
+           
+            style: {
+                backgroundColor: '#FFE4EC', 
+                color: '#AD1457',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                padding: '10px 20px',
+                borderRadius: '8px',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
+            },
+        });
+   
+}
+
+
+const CartToast = (title)=>{
+  
+        toast.success(title, {
+          
+            style: {
+                backgroundColor: '#DFF5E0', 
+                color: '#2D6A4F', 
+                fontSize: '16px',
+                fontWeight: 'bold',
+                padding: '10px 20px',
+                borderRadius: '8px',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
+            },
+        });
+   
+}
+
+
 export const setItemToLocalStorage = (product, title) => {
-    // Get the existing product items from local storage
+  
     const prevproduct = getItems(title);
-    
-    // Add the new product item to the array
     const newproduct = [...prevproduct, product];
-    
-    // Convert the updated array back to a string
     const newproductString = JSON.stringify(newproduct);
-    
-    // Store the updated product array in local storage
     localStorage.setItem(title , newproductString);
+    
 
-    if(title === 'cart-list'){
-        toast.success("Add to Cart successfully");
+    if (title === 'cart-list') {
+        CartToast("Added to Cart successfully")
         
-    }if(title === 'wish-list'){
-        toast.success("Product to wishlist successfully");
-
+    } else if (title === 'wish-list') {
+        WishlistToast("Added to Wishlist successfully");
     }
+    
 
 };
 
@@ -46,12 +75,13 @@ export const removeFromLocalStorage = (id, title)=>{
     const newproductString = JSON.stringify(newproduct);
     localStorage.setItem(title, newproductString);
 
-    if(title === 'cart-list'){
-        toast.success("Remove from Cart successfully");
+   
+    if (title === 'cart-list') {
+        CartToast("Removed from Cart successfully")
         
-    }if(title === 'wish-list'){
-        toast.success("Remove from wishlist successfully");
-
+    } else if (title === 'wish-list') {
+        WishlistToast("Removed from Wishlist successfully");
     }
+    
 
 }
