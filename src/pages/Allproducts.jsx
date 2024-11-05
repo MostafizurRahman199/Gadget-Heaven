@@ -9,8 +9,7 @@ export default function Allproducts() {
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredProducts, setFilteredProducts] = useState(products);
     const [sortType, setSortType] = useState('');
-    const [activeButton, setActiveButton] = useState(''); // State to track the active button
-
+    const [activeButton, setActiveButton] = useState(''); 
     const handleSearch = (event) => {
         setSearchTerm(event.target.value);
     };
