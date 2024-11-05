@@ -1,10 +1,10 @@
 # GadgetHaven: E-Commerce Platform
 
 ## Live Website Link
-[View Live Website](https://your-live-website-link.com)
+[View Live Website](https://react-gadget-heaven-mostafiz.netlify.app/)
 
 ## Requirement Document Link
-[Download Requirement Document](https://your-requirement-document-link.com)
+[Download Requirement Document](https://drive.google.com/file/d/1wRLq1sFGcsgEXfXE05WUVStFvVmXIAQY/view?usp=sharing)
 
 ## Project Description
 GadgetHaven is an e-commerce platform designed for gadget enthusiasts, based on a detailed Figma design. The website features a structured navigation bar, product categories, and individual product details pages. 
