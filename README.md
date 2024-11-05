@@ -1,4 +1,4 @@
-# GadgetHaven: E-Commerce Platform
+# GadgetHeaven: E-Commerce Platform
 
 ## Live Website Link
 [View Live Website](https://react-gadget-heaven-mostafiz.netlify.app/)
