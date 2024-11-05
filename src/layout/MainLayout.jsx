@@ -7,7 +7,7 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function MainLayout() {
-    
+
     const location = useLocation();
     const isHomePage = location.pathname === '/';
   
@@ -16,7 +16,7 @@ export default function MainLayout() {
       <MyProvider>
       <ToastContainer position="top-left" />
         <Navbar   bgColor={isHomePage ? 'bg-[#9538E2]' : 'bg-white'} isHomePage={isHomePage}  />
-            <div className="min-h-screen md:w-10/12 mx-auto">
+            <div className="min-h-screen w-full mx-auto">
         <Outlet />
        </div>
         <Footer></Footer>

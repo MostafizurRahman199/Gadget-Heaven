@@ -14,8 +14,8 @@ export default function ProductDetails() {
     }
 
     return (
-        <div className="flex flex-col items-center relative min-h-screen parent">
-            <div className="text-center">
+        <div className="flex flex-col items-center relative  min-h-screen parent">
+            <div className="text-center  w-full">
                 <Heading 
                     title="Product Details" 
                     subtitle="Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!" 

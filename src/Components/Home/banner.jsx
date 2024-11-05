@@ -15,7 +15,7 @@ const boxStyles = {
 export default function Banner() {
     const navigate = useNavigate();
   return (
-    <div className="relative w-full mx-auto ">
+    <div className="relative md:w-10/12 mx-auto ">
       <div className="hero bg-[#9538E2] text-white h-[400px] md:h-[500px] lg:h-[694px] flex flex-col justify-center lg:justify-start pt-12 lg:pt-20 rounded-b-2xl">
         <div className="hero-content text-center">
           <div className="max-w-4xl px-4 md:px-0">

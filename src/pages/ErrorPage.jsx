@@ -1,9 +1,18 @@
-import React from 'react';
+
+
+import React, { useEffect } from 'react';
 import { FiAlertTriangle } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
 
 export default function ErrorPage() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+  
+    if (performance.getEntriesByType('navigation')[0].type === 'reload') {
+      navigate('/');
+    }
+  }, [navigate]);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4 text-center">

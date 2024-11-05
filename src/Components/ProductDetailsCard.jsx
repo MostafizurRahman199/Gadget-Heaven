@@ -63,9 +63,9 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div className="bg-white flex flex-col md:flex-row border rounded-2xl shadow-md overflow-hidden max-w-4xl mx-auto p-4">
+    <div className="bg-white flex flex-col md:flex-row border md:rounded-2xl md:shadow-md overflow-hidden max-w-4xl mx-auto p-4">
       <img
-        className="w-full md:w-1/2 object-cover h-48 md:h-auto"
+        className="w-full md:w-1/2 object-contain h-48 md:h-auto"
         src={product_image}
         alt={product_title}
       />
