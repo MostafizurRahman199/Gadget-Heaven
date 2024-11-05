@@ -14,9 +14,13 @@ GadgetHaven is an e-commerce platform designed for gadget enthusiasts, based on 
 - **Wishlist System**: Users can save their favorite products to a wishlist for future consideration.
 - **Product Filtering**: Users can filter products based on various criteria for better navigation.
 - **Data Management**: The application utilizes the Context API to manage the cart and wishlist, with optional LocalStorage for data persistence. 
+- **Purchase Products**: Users can complete purchases by proceeding to checkout, allowing for a seamless transaction experience directly from their cart.
 
 ### Additional Features:
 - **Sort by Price**: Users can sort products by price to find items that fit their budget.
+- **Sort by Rating**: Users can sort products by their ratings, allowing them to view top-rated items first.
+- **Search**: A search feature enables users to quickly find products by entering keywords or product names.
+- **Product Details**: Each product has a detailed page with specifications, images, and reviews.
 - **Dynamic Cart and Wishlist Management**: Users can view and manage their cart and wishlist through dedicated pages.
 - **Edge Case Handling**: The platform handles edge cases such as price limits and prevents errors during page reloads, ensuring a smooth user experience.
 
