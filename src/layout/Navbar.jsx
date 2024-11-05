@@ -22,7 +22,7 @@ const textColor = isHomePage ? 'text-white' : "text-black"
 
 
   return (
-    <div className={`navbar ${bgColor} md:w-10/12 mx-auto ${textColor} mt-8 md:px-4 rounded-t-2xl`}>
+    <div className={`navbar ${bgColor} md:w-10/12 mx-auto ${textColor} mt-8 md:px-4 sm:rounded-t-2xl`}>
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

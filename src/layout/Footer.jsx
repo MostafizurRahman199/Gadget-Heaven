@@ -5,7 +5,7 @@ export default function Footer() {
   <div className='flex flex-col justify-center items-center'>
     <div className='bg-white text-base-content p-10 w-full border-b-2 flex flex-col justify-center items-center gap-2'>
         <h1 className='text-2xl'> Gadget Haven </h1>
-        <p>Leading the way in cutting-edge technology and innovation.</p>
+        <p className='text-center'>Leading the way in cutting-edge technology and innovation.</p>
     </div>
       <footer className="footer bg-white text-base-content p-10 flex justify-around items-center">
  

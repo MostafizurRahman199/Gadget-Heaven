@@ -342,7 +342,7 @@
     {
       "id": "21",
       "product_title": "Sony WH-1000XM5",
-      "product_image": "https://example.com/wh1000xm5.jpg",
+      "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/5318-55349.jpg",
       "category": "accessories",
       "price": 349,
       "description": "Industry-leading noise cancellation.",
@@ -359,7 +359,7 @@
     {
       "id": "22",
       "product_title": "Bose QuietComfort 45",
-      "product_image": "https://example.com/qc45.jpg",
+      "product_image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Accessories/BOSE/QuietComfort%2045/Brothers%20-%20QuietComfort%2045%20(1)-800x800.jpg",
       "category": "accessories",
       "price": 329,
       "description": "Comfortable noise-canceling headphones.",
@@ -376,7 +376,7 @@
     {
       "id": "23",
       "product_title": "Apple AirPods Max",
-      "product_image": "https://example.com/airpodsmax.jpg",
+      "product_image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Accessories/Apple/Airpods%20Max/airpods-max-select-spacegray-202011-800x800.png",
       "category": "accessories",
       "price": 549,
       "description": "High-fidelity audio with active noise cancellation.",
@@ -393,7 +393,7 @@
     {
       "id": "24",
       "product_title": "Sennheiser Momentum 4 Wireless",
-      "product_image": "https://example.com/momentum4.jpg",
+      "product_image": "https://gadgetoo.com.bd/wp-content/uploads/2022/09/SENNHEISER-Momentum-4-Wireless-Bluetooth-Headphones-Crystal-Clear-Calls-with-Adaptive-Noise-Cancellation.webp",
       "category": "accessories",
       "price": 349,
       "description": "Superior sound quality with adaptive noise cancellation.",
@@ -410,7 +410,7 @@
     {
         "id": "25",
         "product_title": "Apple Watch Series 8",
-        "product_image": "https://images.unsplash.com/photo-1571595851827-4f8ab28b4504",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Apple-Watch-Series-8-GPS+Cellular-Midnight-4171.jpg",
         "category": "smartwatches",
         "price": 399,
         "description": "Stay connected and active with the Apple Watch Series 8.",
@@ -427,7 +427,7 @@
       {
         "id": "26",
         "product_title": "Samsung Galaxy Watch 5",
-        "product_image": "https://images.unsplash.com/photo-1613889299188-7096a4ee8a92",
+        "product_image": "https://d61s2hjse0ytn.cloudfront.net/color/107/Galaxy_Watch5_44mm_Graphite.webp",
         "category": "smartwatches",
         "price": 299,
         "description": "A sleek smartwatch for health and fitness enthusiasts.",
@@ -444,7 +444,7 @@
       {
         "id": "27",
         "product_title": "Garmin Venu 2",
-        "product_image": "https://images.unsplash.com/photo-1600692663148-2f6b99e50b58",
+        "product_image": "https://ph.garmin.com/m/ph/g/products/venu-2-black-cf-lg.jpg",
         "category": "smartwatches",
         "price": 399,
         "description": "Fitness-focused smartwatch with vibrant display.",
@@ -461,7 +461,7 @@
       {
         "id": "28",
         "product_title": "Fossil Gen 6",
-        "product_image": "https://images.unsplash.com/photo-1585338920618-4b30e76750e0",
+        "product_image": "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/f/o/fossil-ftw4062v--2.jpg",
         "category": "smartwatches",
         "price": 299,
         "description": "Stylish smartwatch with smart features.",
@@ -478,7 +478,7 @@
       {
         "id": "29",
         "product_title": "Amazfit GTR 3",
-        "product_image": "https://images.unsplash.com/photo-1630432982915-85c03cbe3bc6",
+        "product_image": "https://uniquegadget.com.bd/wp-content/uploads/2022/07/Amazfit-GTR-3-Pro-Smart-Watch-scaled-2.jpg",
         "category": "smartwatches",
         "price": 199,
         "description": "Affordable smartwatch with health tracking.",
@@ -495,7 +495,7 @@
       {
         "id": "30",
         "product_title": "Fitbit Versa 3",
-        "product_image": "https://images.unsplash.com/photo-1605768234152-8a1851659495",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Fitbit-Versa-3-Smart-Watch-Black-9119.jpg",
         "category": "smartwatches",
         "price": 229,
         "description": "Health and fitness smartwatch with built-in GPS.",
@@ -508,6 +508,42 @@
         ],
         "availability": true,
         "rating": 4.4
+      },
+
+      {
+        "id": "31",
+        "product_title": "Acer Aspire 5",
+        "product_image": "https://www.ucc.com.bd/image/cache/catalog/laptop/acer/acer-aspire-5/180dd82a-99a6-4a0f-a8d9-31526440898e22041014-550x550.jpg.webp",
+        "category": "laptops",
+        "price": 699,
+        "description": "Affordable laptop with solid performance for everyday tasks.",
+        "specification": [
+          "Intel Core i5",
+          "15.6-inch Full HD display",
+          "8GB RAM",
+          "512GB SSD",
+          "Up to 10 hours of battery life"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "id": "32",
+        "product_title": "HP Pavilion 15",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/6-22.jpg",
+        "category": "laptops",
+        "price": 849,
+        "description": "Sleek and powerful laptop designed for entertainment and productivity.",
+        "specification": [
+          "AMD Ryzen 5",
+          "15.6-inch FHD IPS display",
+          "16GB RAM",
+          "1TB HDD + 256GB SSD",
+          "Up to 12 hours of battery life"
+        ],
+        "availability": true,
+        "rating": 4.6
       }
+      
   ]
   

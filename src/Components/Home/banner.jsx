@@ -16,7 +16,7 @@ export default function Banner() {
     const navigate = useNavigate();
   return (
     <div className="relative md:w-10/12 mx-auto ">
-      <div className="hero bg-[#9538E2] text-white h-[400px] md:h-[500px] lg:h-[694px] flex flex-col justify-center lg:justify-start pt-12 lg:pt-20 rounded-b-2xl">
+      <div className="hero bg-[#9538E2] text-white h-[400px] md:h-[500px] lg:h-[694px] flex flex-col justify-start lg:justify-start pt-12 lg:pt-20 sm:rounded-b-2xl">
         <div className="hero-content text-center">
           <div className="max-w-4xl px-4 md:px-0">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
@@ -33,7 +33,7 @@ export default function Banner() {
       </div>
 
       <div
-        className="absolute top-[600px] lg:top-[700px] right-1/2 lg:right-40 transform translate-x-1/2 lg:translate-x-0 -translate-y-1/2 w-[100%] md:w-[70%] h-64 md:h-80 lg:h-[500px] rounded-2xl overflow-hidden shadow-lg p-2 md:p-4 border-2 border-white"
+        className="absolute top-[500px] sm:top-[500px] lg:top-[700px] right-1/2 lg:right-40 transform translate-x-1/2 lg:translate-x-0 -translate-y-1/2 w-[100%] md:w-[70%] h-64 md:h-80 lg:h-[500px] rounded-2xl overflow-hidden shadow-lg p-2 md:p-4 border-2 border-white"
         style={boxStyles}
       >
         <div
@@ -46,7 +46,7 @@ export default function Banner() {
         ></div>
       </div>
 
-      <div className='h-[400px] '> 
+      <div className='h-[300px] sm:h-[400px] md:h-[200px] lg:h-[400px]'> 
 
       </div>
     </div>
