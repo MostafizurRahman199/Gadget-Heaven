@@ -53,4 +53,4 @@ To get a copy of the project up and running on your local machine, follow these 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-MostafizurRahman199.git
