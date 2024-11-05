@@ -25,7 +25,7 @@ export default function CardProducts() {
   const calculateTotalCost = (products) => {
     const total = products.reduce((sum, product) => sum + product.price, 0);
     setTotalCost(total);
-    setTotalItems(total);
+    
   };
 
   const handleRemove = (productId) => {
@@ -45,6 +45,7 @@ export default function CardProducts() {
     localStorage.removeItem('cart-list'); 
     setCardProducts([]); 
     
+    setTotalItems(totalCost);
     document.getElementById('my_modal_5').showModal();
     setTotalCost(0); 
   };
